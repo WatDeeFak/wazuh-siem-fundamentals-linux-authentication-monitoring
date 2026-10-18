@@ -149,7 +149,7 @@ The Wazuh SIEM environment was successfully deployed and made accessible through
 The following screenshots document the Phase 1 implementation:
 
 ### 1. Wazuh virtual machine configuration.
-![](image/Screenshot%202026-10-15%20065718.png)
+![](Image/Screenshot%202026-10-15%20065718.png)
 
 ### 2. Host-only network configuration.
 ![](image/Screenshot%202026-10-17%20112509.png)
