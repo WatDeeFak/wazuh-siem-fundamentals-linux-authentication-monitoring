@@ -152,13 +152,13 @@ The following screenshots document the Phase 1 implementation:
 ![](Image/Screenshot%202026-10-15%20065718.png)
 
 ### 2. Host-only network configuration.
-![](image/Screenshot%202026-10-17%20112509.png)
+![](Image/Screenshot%202026-10-17%20112509.png)
 
 ### 3. Wazuh server IP address.
-![](image/Screenshot%202026-10-15%20072913.png)
+![](Image/Screenshot%202026-10-15%20072913.png)
 
 ### 4. Successful access to the Wazuh Dashboard.
-![](image/Screenshot%202026-10-17%20112909.png)
+![](Image/Screenshot%202026-10-17%20112909.png)
 
 > ## Phase 2 — Linux Endpoint Integration
 
@@ -231,16 +231,16 @@ This established the foundation for the subsequent phases covering log validatio
 The following screenshots document the endpoint integration:
 
 ### 1. Ubuntu virtual machine network configuration.
-![](image/Screenshot%202026-10-15%20203759.png)
+![](Image/Screenshot%202026-10-15%20203759.png)
 
 ### 2. Ubuntu network interfaces and assigned IP addresses.
-![](image/Screenshot%202026-10-16%20072537.png)
+![](Image/Screenshot%202026-10-16%20072537.png)
 
 ### 3. OpenSSH Server service status.
-![](image/Screenshot%202026-10-16%20192254.png)
+![](Image/Screenshot%202026-10-16%20192254.png)
 
 ### 4. Wazuh Dashboard showing the registered Ubuntu endpoint as Active.
-![](image/Screenshot%202026-10-16%20200056.png)
+![](Image/Screenshot%202026-10-16%20200056.png)
 
 > ## Phase 3 — Log Collection and Validation
 
@@ -299,10 +299,10 @@ This established the foundation for Phase 4, where repeated SSH authentication a
 ### Evidence
 
 - **Endpoint Event Search:** Threat Hunting results filtered by `agent.name: "daniel-rr-VM"`.
-![](image/Screenshot%202026-10-17%20065103.png)
+![](Image/Screenshot%202026-10-17%20065103.png)
 
 - **SSH Authentication Failure:** Detailed event view showing Rule ID `5760` and Level `5`.
-![](image/Screenshot%202026-10-17%20070509.png)
+![](Image/Screenshot%202026-10-17%20070509.png)
 
 > ## Phase 4 — SSH Simulation and Brute-Force Detection
 
@@ -374,13 +374,13 @@ The result reflects the active Wazuh rules and configuration used in this lab. I
 The following evidence documents the simulation and its detection:
 
 ### 1. PowerShell output showing the controlled repeated SSH authentication attempts.
-![](image/Screenshot%202026-10-17%20071637.png)
+![](Image/Screenshot%202026-10-17%20071637.png)
 
 ### 2. Wazuh Threat Hunting showing the brute-force detection alert.
-![](image/Screenshot%202026-10-17%20072233.png)
+![](Image/Screenshot%202026-10-17%20072233.png)
 
 ### 3. Detailed alert information showing Rule ID `5712`, Level `10`, source IP, attempted username, and available correlation metadata.
-![](image/Screenshot%202026-10-17%20072851.png)
+![](Image/Screenshot%202026-10-17%20072851.png)
 
 > ## Conclusion
 
